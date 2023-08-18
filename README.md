@@ -1,5 +1,5 @@
-# lucko.me
-My personal website.
+# 📡 rbnu.nl
+My personal website, based on [Lucko's personal website](https://github.com/lucko/lucko.github.io).
 
 Written using [Next.js](https://nextjs.org/) and deployed to GitHub Pages.
 

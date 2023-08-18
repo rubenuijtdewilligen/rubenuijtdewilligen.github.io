@@ -11,8 +11,8 @@ export default function Pgp({ pgpKey }) {
         <br />
         <p>This is my PGP key.</p>
         <pre><code>{pgpKey}</code></pre>
-        <p>As a <a href="./lucko_pgp.asc">raw file</a>:</p>
-        <pre><code>curl https://lucko.me/lucko_pgp.asc | gpg --import</code></pre>
+        <p>As a <a href="./ruben_pgp.asc">raw file</a>:</p>
+        <pre><code>curl https://rbnu.nl/ruben_pgp.asc | gpg --import</code></pre>
       </article>
     </Layout>
   )
@@ -20,7 +20,7 @@ export default function Pgp({ pgpKey }) {
 
 export async function getStaticProps() {
   const dir = path.join(process.cwd(), 'public');
-  const pgpKey = (await fs.readFile(path.join(dir, 'lucko_pgp.asc'), 'utf8')).trim();
+  const pgpKey = (await fs.readFile(path.join(dir, 'ruben_pgp.asc'), 'utf8')).trim();
   return {
     props: { pgpKey }
   }

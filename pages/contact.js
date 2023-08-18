@@ -5,43 +5,25 @@ export default function Contact() {
     <Layout title="contact">
       <article>
         <h1>Contacting me</h1>
-        <p>I try my best to reply to all messages, but unfortunately I often don't have enough time
-          to respond to everything.</p>
 
-        <Section title="Questions about or requesting help with my projects">
-          <p>If you have a question about one of my projects, please use the following support
-            channels before attempting to contact me directly!</p>
+        To contact me, please shoot me an email at <a href="mailto:ruben@uijtdewilligenbv.nl">ruben@uijtdewilligenbv.nl</a>.
+
+        <Section title="Social media accounts">
           <ul>
-            <li>Questions / help with <b>LuckPerms</b> - ask in the <a href="https://discord.gg/luckperms">LuckPerms Discord</a>.</li>
-            <li>Questions / help with <b>spark</b> - ask in the <a href="https://discord.gg/PAGT2fu">spark Discord</a>.</li>
-            <li>Questions / help with <b>any of my other projects</b> - ask in my <a href="https://discord.gg/Rnbpc7s">personal Discord</a>.</li>
+            <li><b>Facebook:</b> <a href="https://facebook.com/ruben.uijtdewilligen.3">@ruben.uijtdewilligen.3</a></li>
+            <li><b>LinkedIn:</b> <a href="https://linkedin.com/in/rubenuijtde">@rubenuijtde</a></li>
+            <li><b>X (Twitter):</b> <a href="https://x.com/rendermelon">@rendermelon</a></li>
+            <li><b>Instagram:</b> <a href="https://instagram.com/ruben.uijtdewilligen">@ruben.uijtdewilligen</a></li>
+            <li><b>GitHub:</b> <a href="https://github.com/rubenuijtdewilligen">@rubenuijtdewilligen</a></li>
           </ul>
         </Section>
 
         <Section title="Requests or offers for paid work">
-          <p>Thanks for thinking of me! Unfortunately I'm not interested in or able to take on any freelance/paid work at the moment.
-          Best of luck with your project. 🙂</p>
+          <p>I regularly take on freelance work, mostly for local businesses. I would like to discuss about the possibilities for your project and hope to be able to help. You can send me an email at <a href="mailto:ruben@uijtdewilligenbv.nl">ruben@uijtdewilligenbv.nl</a>.</p>
         </Section>
 
-        <Section title="Sponsorship or advertising queries">
-          <p>We already have a long-term sponsor for LuckPerms, and are not looking to take on any more at this time, sorry!</p>
-        </Section>
-
-        <Section title="Other">
-          <p>If you are sure that your question / message doesn't fall into any of the categories above, feel free to
-            reach out using the contact methods below.</p>
-          <details>
-            <summary>Click to expand</summary>
-              <h4>Email</h4>
-              <p>I can be reached via email at <a href="mailto:hey@lucko.me">hey@lucko.me</a>.</p>
-              <h4>Discord</h4>
-              <p>My Discord user id is <code>241666402639937538</code>. However, I have direct messages disabled and generally
-                do not accept friend requests from people I don't already know.</p>
-              <p>Instead, feel free to join my <a href="https://discord.gg/Rnbpc7s">personal Discord server</a> and chat to me there.</p>
-              <p>Please be sensible, don't "ask to ask" or "ask to DM" and instead, just ask your question in the #general channel
-                and wait patiently for a reply.</p>
-              <p>I'll try get back to you as soon as possible. 😊</p>
-          </details>
+        <Section title="Discord">
+          <p>Currently my username is <code>@rbnu.nl</code>. My Discord user ID is <code>708412162586181632</code>.</p>
         </Section>
 
       </article>
